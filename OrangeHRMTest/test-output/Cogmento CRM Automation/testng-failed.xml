@@ -8,12 +8,32 @@
     <classes>
       <class name="com.orangehrm.testcases.ContactsPageTest">
         <methods>
-          <include name="validateCreateNewContact" invocation-numbers="1"/>
+          <include name="validateCreateNewContact"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="SelectSingleContactsTest"/>
+          <include name="SelectMultipleContactsTest"/>
+          <include name="verifyContactsPageLabel"/>
           <include name="deleteContact"/>
         </methods>
       </class> <!-- com.orangehrm.testcases.ContactsPageTest -->
+      <class name="com.orangehrm.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.testcases.LoginPageTest -->
+      <class name="com.orangehrm.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameLabelTest"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="setup"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.testcases.HomePageTest -->
     </classes>
   </test> <!-- Cogmento CRM App test cases(failed) -->
 </suite> <!-- Failed suite [Cogmento CRM Automation] -->
