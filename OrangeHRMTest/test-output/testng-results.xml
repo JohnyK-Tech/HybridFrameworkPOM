@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cogmento CRM Automation" duration-ms="361510" started-at="2020-06-01T13:46:52Z" finished-at="2020-06-01T13:52:53Z">
+    <groups>
+    </groups>
+    <test name="Cogmento CRM App test cases" duration-ms="361510" started-at="2020-06-01T13:46:52Z" finished-at="2020-06-01T13:52:53Z">
+      <class name="com.orangehrm.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="setup" is-config="true" duration-ms="16478" started-at="2020-06-01T13:47:13Z" finished-at="2020-06-01T13:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="verifyHomePageTitleTest" duration-ms="12" started-at="2020-06-01T13:47:29Z" finished-at="2020-06-01T13:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="tearDown" is-config="true" duration-ms="1031" started-at="2020-06-01T13:47:29Z" finished-at="2020-06-01T13:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="setup" is-config="true" duration-ms="15333" started-at="2020-06-01T13:48:11Z" finished-at="2020-06-01T13:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserNameLabelTest()[pri:2, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="verifyUserNameLabelTest" duration-ms="1489" started-at="2020-06-01T13:48:26Z" finished-at="2020-06-01T13:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="tearDown" is-config="true" duration-ms="1030" started-at="2020-06-01T13:48:28Z" finished-at="2020-06-01T13:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="setup" is-config="true" duration-ms="14675" started-at="2020-06-01T13:48:57Z" finished-at="2020-06-01T13:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="verifyContactsLinkTest" duration-ms="4633" started-at="2020-06-01T13:49:11Z" finished-at="2020-06-01T13:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.HomePageTest@7334aada]" name="tearDown" is-config="true" duration-ms="1189" started-at="2020-06-01T13:49:16Z" finished-at="2020-06-01T13:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.HomePageTest -->
+      <class name="com.orangehrm.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="18911" started-at="2020-06-01T13:47:30Z" finished-at="2020-06-01T13:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:1, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="verifyContactsPageLabel" duration-ms="114" started-at="2020-06-01T13:47:49Z" finished-at="2020-06-01T13:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1195" started-at="2020-06-01T13:47:50Z" finished-at="2020-06-01T13:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="16980" started-at="2020-06-01T13:48:29Z" finished-at="2020-06-01T13:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SelectSingleContactsTest()[pri:2, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="SelectSingleContactsTest" duration-ms="9339" started-at="2020-06-01T13:48:46Z" finished-at="2020-06-01T13:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSingleContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1203" started-at="2020-06-01T13:48:55Z" finished-at="2020-06-01T13:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="16873" started-at="2020-06-01T13:49:17Z" finished-at="2020-06-01T13:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SelectMultipleContactsTest()[pri:3, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="SelectMultipleContactsTest" duration-ms="10327" started-at="2020-06-01T13:49:34Z" finished-at="2020-06-01T13:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMultipleContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1939" started-at="2020-06-01T13:49:44Z" finished-at="2020-06-01T13:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="18387" started-at="2020-06-01T13:49:47Z" finished-at="2020-06-01T13:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="validateCreateNewContact" duration-ms="14319" started-at="2020-06-01T13:50:05Z" data-provider="getCRMTestData" finished-at="2020-06-01T13:50:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1107" started-at="2020-06-01T13:50:20Z" finished-at="2020-06-01T13:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="18014" started-at="2020-06-01T13:50:21Z" finished-at="2020-06-01T13:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="validateCreateNewContact" duration-ms="10936" started-at="2020-06-01T13:50:39Z" data-provider="getCRMTestData" finished-at="2020-06-01T13:50:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stieve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Contact]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Stieve smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1099" started-at="2020-06-01T13:50:50Z" finished-at="2020-06-01T13:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="18725" started-at="2020-06-01T13:50:51Z" finished-at="2020-06-01T13:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="validateCreateNewContact" duration-ms="11762" started-at="2020-06-01T13:51:09Z" data-provider="getCRMTestData" finished-at="2020-06-01T13:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sparrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Affiliate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[James sparrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1070" started-at="2020-06-01T13:51:21Z" finished-at="2020-06-01T13:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="17627" started-at="2020-06-01T13:51:22Z" finished-at="2020-06-01T13:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteContact(java.lang.String)[pri:5, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="deleteContact" duration-ms="10707" started-at="2020-06-01T13:51:40Z" data-provider="getCRMTestData1" finished-at="2020-06-01T13:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1173" started-at="2020-06-01T13:51:51Z" finished-at="2020-06-01T13:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="17873" started-at="2020-06-01T13:51:52Z" finished-at="2020-06-01T13:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteContact(java.lang.String)[pri:5, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="deleteContact" duration-ms="10849" started-at="2020-06-01T13:52:10Z" data-provider="getCRMTestData1" finished-at="2020-06-01T13:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stieve smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1214" started-at="2020-06-01T13:52:21Z" finished-at="2020-06-01T13:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="setup" is-config="true" duration-ms="17281" started-at="2020-06-01T13:52:22Z" finished-at="2020-06-01T13:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteContact(java.lang.String)[pri:5, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="deleteContact" duration-ms="12965" started-at="2020-06-01T13:52:39Z" data-provider="getCRMTestData1" finished-at="2020-06-01T13:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James sparrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.ContactsPageTest@1d9b7cce]" name="tearDown" is-config="true" duration-ms="1185" started-at="2020-06-01T13:52:52Z" finished-at="2020-06-01T13:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.ContactsPageTest -->
+      <class name="com.orangehrm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.LoginPageTest@441772e]" name="setup" is-config="true" duration-ms="16724" started-at="2020-06-01T13:46:52Z" finished-at="2020-06-01T13:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.orangehrm.testcases.LoginPageTest@441772e]" name="LoginPageTitleTest" duration-ms="229" started-at="2020-06-01T13:47:09Z" finished-at="2020-06-01T13:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.LoginPageTest@441772e]" name="tearDown" is-config="true" duration-ms="4167" started-at="2020-06-01T13:47:09Z" finished-at="2020-06-01T13:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.LoginPageTest@441772e]" name="setup" is-config="true" duration-ms="15743" started-at="2020-06-01T13:47:51Z" finished-at="2020-06-01T13:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.orangehrm.testcases.LoginPageTest@441772e]" name="loginTest" duration-ms="527" started-at="2020-06-01T13:48:06Z" finished-at="2020-06-01T13:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.LoginPageTest@441772e]" name="tearDown" is-config="true" duration-ms="4171" started-at="2020-06-01T13:48:07Z" finished-at="2020-06-01T13:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.LoginPageTest -->
+    </test> <!-- Cogmento CRM App test cases -->
+  </suite> <!-- Cogmento CRM Automation -->
+</testng-results>

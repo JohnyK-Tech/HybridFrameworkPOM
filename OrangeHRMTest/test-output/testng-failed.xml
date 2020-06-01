@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cogmento CRM Automation]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Cogmento CRM App test cases(failed)">
+    <classes>
+      <class name="com.orangehrm.testcases.ContactsPageTest">
+        <methods>
+          <include name="validateCreateNewContact" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="deleteContact"/>
+        </methods>
+      </class> <!-- com.orangehrm.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Cogmento CRM App test cases(failed) -->
+</suite> <!-- Failed suite [Cogmento CRM Automation] -->
